@@ -1,0 +1,100 @@
+:root {
+    --Theme-dark: rgb(23, 23, 23);
+    --Background-color: white;
+    --Box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.461);
+    ---Btn-bshadow: 2px 2px 6px rgba(0, 0, 0, 0.461);
+    --Button-color: rgb(88, 176, 253);
+    --Primary-color: rgb(39, 39, 39);
+    --nav-load: 0.4s;
+    --text-lite: rgb(207, 207, 207);
+
+    --my-boreder-radious: 10px;
+}
+.about-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    
+
+}
+
+.backdrop{
+    background-image: url('../images/pexels-linkedin-sales-navigator-1251861.jpg');
+    background-size: cover;
+    padding-top: 5rem;
+    height: 20vh;
+}
+
+
+
+
+.about-page{
+    animation: nav-load var(--nav-load) ease-in ;
+}
+
+/* -------profile-discription-------- */
+.profile-discription {
+    
+    width: 100%;
+    text-align: center;
+    animation: container-load 500ms ease-in;
+    animation-duration: 800ms;
+    animation-timing-function: ease-in;
+    /* padding: 15rem 0 1rem; */
+    
+
+}
+
+
+
+
+
+.my-details {
+    padding: 5rem 1rem 2rem ;
+    
+}
+
+.about-discription h1 {
+    font-size: 65px;
+    font-weight: 500;
+    color: var(--text-lite);
+   
+}
+.my-details .large {
+    font-size: 75px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.about-discription p {
+    font-size: 18px;
+    text-align: start;
+    color: var(--text-lite);
+    margin-top: 1rem;
+    animation: container-load 500ms ease-in;
+    animation-duration: 800ms;
+    animation-timing-function: ease-in;
+}
+
+.about-discription p em{
+    font-size: 14px;
+}
+
+
+
+.home-btn a {
+    background: rgb(88, 176, 253);
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    display: inline flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,48 @@
+
+.skills-container{
+    padding: 8rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills-container h1{
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    color: var(--text-lite);
+}
+.skills-container p{
+    margin-top: 3rem;
+    font-size: 16px;
+    text-align: center;
+    color: var(--text-lite);
+}
+
+.skills-container ul img{
+ width: 60px;
+
+}
+
+.skills-container ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+   
+    
+}
+
+.skills-container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+
+
+}
+
